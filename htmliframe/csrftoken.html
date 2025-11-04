@@ -1,0 +1,15 @@
+<!-- Login Form -->
+<form action="#" method="post">
+  <h2>Login</h2>
+
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username" required><br><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" required><br><br>
+
+  <!-- CSRF token helps prevent Cross-Site Request Forgery attacks by verifying the request origin -->
+  <input type="hidden" name="csrf_token" value="dummy_csrf_token_12345">
+
+  <input type="submit" value="Login">
+</form>
